@@ -1,12 +1,17 @@
 .home-page {
     height: 100%;
     width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 main {
-    background-color: indigo;
+    background-color: #a1c3c7;
     height: 100vh;
     margin-top: 75px;
+}
+
+main img {
+    width: 350px;
 }
 

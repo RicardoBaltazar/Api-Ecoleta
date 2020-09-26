@@ -31,6 +31,7 @@
 
         <main>
             <h1>asd</h1>
+            <img src="./Site-Professora-Ribeiro-PHP/assets/undraw_studying_s3l7.svg" alt="">
         </main>
 
     </div>
