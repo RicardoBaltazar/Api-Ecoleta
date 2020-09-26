@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 0;
+}
+.menu p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5538c8;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 25px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #a5a5a5;
+}
+
