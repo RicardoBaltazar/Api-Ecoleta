@@ -30,8 +30,18 @@
         </header>
 
         <main>
-            <h1>asd</h1>
-            <img src="./Site-Professora-Ribeiro-PHP/assets/undraw_studying_s3l7.svg" alt="">
+            <section class="section-presentation">
+                <div>
+                    <h2>Matemática com a Ribeiro</h2>
+                    <p>Conta a Conta</p>
+                    <p>O caminho do conhecimento</p>
+                    <button>Contate-me</button>
+                </div>
+
+                <div>
+                    <img src="./assets/undraw_studying_s3l7.svg" alt="">
+                </div>
+            </section>
         </main>
 
     </div>
