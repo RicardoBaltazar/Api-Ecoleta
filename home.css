@@ -54,3 +54,40 @@ main {
     width: 575px;
 }
 
+/*ABOUT*/
+
+.section-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.section-about h2 {
+    color: #5538c8;
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.section-about div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.section-about img {
+    margin-right: 50px;
+}
+
+.section-about div p {
+    font-size: 20px;
+    width: 425px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-left: 50px;
+}
+

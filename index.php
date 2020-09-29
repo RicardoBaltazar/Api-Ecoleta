@@ -42,6 +42,28 @@
                     <img src="./assets/undraw_studying_s3l7.svg" alt="">
                 </div>
             </section>
+
+            <section class="section-about">
+                <h2>Sobre Mim</h2>
+
+                <div>
+                    <img src="./assets/img-about.png" alt="">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugiat, molestias. Vero provident asperiores molestiae, velit 
+                        quibusdam incidunt architecto esse pariatur dignissimos, nulla 
+                        aperiam eos autem cumque ipsum, officia ratione amet?
+                        <br>
+                        <br>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Porro commodi officiis et neque, doloremque voluptatibus harum sequi! 
+                        Quasi praesentium placeat odit esse ab perspiciatis, numquam beatae 
+                        obcaecati hic nesciunt molestiae! Vero provident asperiores molestiae, velit 
+                        quibusdam incidunt architecto esse pariatur dignissimos, nulla 
+                        aperiam eos autem cumque ipsum, officia ratione amet?
+                    </p>
+                </div>
+            </section>
         </main>
 
     </div>
