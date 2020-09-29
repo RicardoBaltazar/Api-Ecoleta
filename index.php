@@ -125,7 +125,7 @@
                 <p>Eu ensino na capital de São Paulo e nas cidades do llitoral.</p>
                 <p>Tel: (11) 3456-7890 / Email: info@meusite.com</p>
 
-                <form action="" method="POST">
+                <form action="form-contact.php" method="POST">
                     <div class="input-form">
                         <div>
                             <input type="text" name="name" placeholder='Nome'>
@@ -163,9 +163,7 @@
             </section>
         </main>
 
-        <footer>
-            asdasdasdasd
-        </footer>
+
     </div>
 
 
