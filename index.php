@@ -16,22 +16,22 @@
 
 <body>
     <div class="home-page">
-        <header class="menu">
+        <header class="menu" id="#home">
             <p>Professora Ribeiro</p>
             <nav>
                 <ul>
-                    <li><a href="">Página inicial</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Método</a></li>
-                    <li><a href="">Recomendações</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="#section-presentation">Página inicial</a></li>
+                    <li><a href="#section-about">Sobre</a></li>
+                    <li><a href="#section-method">Método</a></li>
+                    <li><a href="section-depoiments">Recomendações</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#section-contact">Contato</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section class="section-presentation">
+            <section class="section-presentation" id="section-presentation">
                 <div>
                     <h2>Matemática com a Ribeiro</h2>
                     <p>Conta a Conta</p>
@@ -44,7 +44,7 @@
                 </div>
             </section>
 
-            <section class="section-about">
+            <section class="section-about" id="section-about">
                 <h2>Sobre Mim</h2>
 
                 <div>
@@ -66,7 +66,7 @@
                 </div>
             </section>
 
-            <section class="section-method">
+            <section class="section-method" id="section-method">
                 <h2>Como Eu Faço</h2>
                 <div class="div-methods">
                     <div>
@@ -111,7 +111,7 @@
                 <button>Saiba Mais</button>
             </section>
 
-            <section class="section-depoiments">
+            <section class="section-depoiments" id="section-depoiments">
                 <h3>O que os clientes felizes dizem por ai</h3>
                 <p>
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -120,7 +120,7 @@
                 </p>
             </section>
 
-            <section class="section-contact">
+            <section class="section-contact" id="section-contact">
                 <h3>Contate-me</h3>
                 <p>Eu ensino na capital de São Paulo e nas cidades do llitoral.</p>
                 <p>Tel: (11) 3456-7890 / Email: info@meusite.com</p>
@@ -163,6 +163,9 @@
             </section>
         </main>
 
+        <footer>
+            asdasdasdasd
+        </footer>
     </div>
 
 

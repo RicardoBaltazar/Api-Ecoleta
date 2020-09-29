@@ -5,6 +5,10 @@
     outline: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f5f5f5;
     font-family: 'roboto', sans-serif;
