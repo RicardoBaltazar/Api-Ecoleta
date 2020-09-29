@@ -91,3 +91,48 @@ main {
     margin-left: 50px;
 }
 
+/*METHOD*/
+
+.section-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+.section-method h2 {
+    color: #5538c8;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.section-method .div-methods{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    background-color: #fff;
+    padding: 75px 150px;
+}
+
+.section-method .div-methods div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+}
+
+.section-method .div-methods div h3 {
+    color: #5538c8;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.section-method .div-methods div p {
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+

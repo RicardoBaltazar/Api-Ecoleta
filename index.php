@@ -49,19 +49,63 @@
                 <div>
                     <img src="./assets/img-about.png" alt="">
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Fugiat, molestias. Vero provident asperiores molestiae, velit 
-                        quibusdam incidunt architecto esse pariatur dignissimos, nulla 
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Fugiat, molestias. Vero provident asperiores molestiae, velit
+                        quibusdam incidunt architecto esse pariatur dignissimos, nulla
                         aperiam eos autem cumque ipsum, officia ratione amet?
                         <br>
                         <br>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Porro commodi officiis et neque, doloremque voluptatibus harum sequi! 
-                        Quasi praesentium placeat odit esse ab perspiciatis, numquam beatae 
-                        obcaecati hic nesciunt molestiae! Vero provident asperiores molestiae, velit 
-                        quibusdam incidunt architecto esse pariatur dignissimos, nulla 
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Porro commodi officiis et neque, doloremque voluptatibus harum sequi!
+                        Quasi praesentium placeat odit esse ab perspiciatis, numquam beatae
+                        obcaecati hic nesciunt molestiae! Vero provident asperiores molestiae, velit
+                        quibusdam incidunt architecto esse pariatur dignissimos, nulla
                         aperiam eos autem cumque ipsum, officia ratione amet?
                     </p>
+                </div>
+            </section>
+
+            <section class="section-method">
+                <h2>Como Eu Faço</h2>
+                <div class="div-methods">
+                    <div>
+                        <h3>Matérias</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempore deleniti.
+                            Atque nobis, eaque ut quis dolor reprehenderit tempora cupiditate voluptatibus optio.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Localização</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis autem possimus temporibus nam tempora.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Opções de Ensino</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempore deleniti.
+                            Atque nobis.
+                            <br>
+                            <br>
+                            <br>
+                            Preço: R$60,00/hora
+                        </p>
+                    </div>
+
+                    <div>
+                    <p>
+                        <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempore deleniti.
+                            Atque nobis.
+                            <br>
+                            <br>
+                            <br>
+                            Rate: R$50,00/hora
+                        </p>
+                    </div>
                 </div>
             </section>
         </main>
