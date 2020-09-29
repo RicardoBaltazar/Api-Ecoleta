@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="responsive.css">
     <title>Professora Ribeiro</title>
 </head>
@@ -113,9 +114,9 @@
             <section class="section-depoiments">
                 <h3>O que os clientes felizes dizem por ai</h3>
                 <p>
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Debitis, saepe molestiae placeat eaque hic laboriosam, labore quidem aliquam fugiat.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro voluptatibus." 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro voluptatibus."
                 </p>
             </section>
 
@@ -125,13 +126,39 @@
                 <p>Tel: (11) 3456-7890 / Email: info@meusite.com</p>
 
                 <form action="" method="POST">
-                    <div>
+                    <div class="input-form">
+                        <div>
+                            <input type="text" name="name" placeholder='Nome'>
+                            <input type="text" name="last-name" placeholder='Sobrenome'>
+                        </div>
+                        <div>
+                            <input type="text" name="email" placeholder='Email'>
+                            <input type="text" name="phone" placeholder='Telefone'>
+                        </div>
+                        <input type="text" name="message" placeholder="Menssagem" class="input-message">
+                    </div>
+
+                    <div class="div-checkbox">
+                        <p>Nível de Estudo</p>
+
+                        <div class="div-input-checkbox">
+                            <input type="checkbox" name="fundamental" id="fundamental" class="checkbox">
+                            <label for="fundamental">Ensino Fundamental</label>
+                        </div>
                         
+                        <div class="div-input-checkbox">
+                            <input type="checkbox" name="medio" id="medio" class="checkbox">
+                            <label for="medio">Ensino Médio</label>
+                        </div>
+
+                        <div class="div-input-checkbox">
+                            <input type="checkbox" name="vestibular" id="vestibular" class="checkbox">
+                            <label for="vestibular">Vestibuláres</label>
+                        </div>
+
+                        <button type="submit">Enviar</button>
                     </div>
 
-                    <div>
-
-                    </div>
                 </form>
             </section>
         </main>
