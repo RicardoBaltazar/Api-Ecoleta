@@ -109,6 +109,15 @@
                 </div>
                 <button>Saiba Mais</button>
             </section>
+
+            <section class="section-depoiments">
+                <h3>O que os clientes felizes dizem por ai</h3>
+                <p>
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Debitis, saepe molestiae placeat eaque hic laboriosam, labore quidem aliquam fugiat.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro voluptatibus." 
+                </p>
+            </section>
         </main>
 
     </div>

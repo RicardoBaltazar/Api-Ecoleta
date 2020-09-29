@@ -112,7 +112,7 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 100px;
     background-color: #fff;
-    padding: 75px 150px;
+    padding: 75px 275px;
 }
 
 .section-method .div-methods div {
@@ -149,4 +149,28 @@ main {
 
 .section-method button:hover {
     background-color: #f8957e;
+}
+
+
+/*DEPOIMENTS*/
+
+.section-depoiments {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5538c8;
+    color: #fff;
+    padding: 100px;
+}
+
+.section-depoiments h3 {
+    font-size: 75px;
+    width: 550px;
+    font-weight: bold;
+}
+
+.section-depoiments p {
+    font-weight: 300;
+    width: 350px;
+    font-size: 22px;
 }

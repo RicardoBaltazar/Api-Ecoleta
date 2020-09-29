@@ -29,6 +29,7 @@
     text-decoration: none;
     color: #a5a5a5;
     font-size: 18px;
+    transition: 0.2s;
 }
 
 .menu ul li a:hover {
