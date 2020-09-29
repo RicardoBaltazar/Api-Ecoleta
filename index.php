@@ -90,23 +90,24 @@
                             Atque nobis.
                             <br>
                             <br>
-                            <br>
                             Preço: R$60,00/hora
                         </p>
-                    </div>
 
-                    <div>
-                    <p>
-                        <br><br>
+                        <p>
+                            <br><br>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempore deleniti.
                             Atque nobis.
-                            <br>
                             <br>
                             <br>
                             Rate: R$50,00/hora
                         </p>
                     </div>
+
+                    <div>
+
+                    </div>
                 </div>
+                <button>Saiba Mais</button>
             </section>
         </main>
 

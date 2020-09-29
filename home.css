@@ -136,3 +136,17 @@ main {
     text-align: center;
 }
 
+.section-method button {
+    background-color: #fd8369;
+    border: none;
+    border-radius: 250px;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 22px;
+    margin: 50px 0;
+    transition: 0.2s;
+}
+
+.section-method button:hover {
+    background-color: #f8957e;
+}
