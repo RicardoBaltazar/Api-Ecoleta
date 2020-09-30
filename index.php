@@ -107,7 +107,6 @@
 
                     </div>
                 </div>
-                <button>Saiba Mais</button>
             </section>
 
             <section class="section-depoiments" id="section-depoiments">
@@ -152,7 +151,7 @@
 
                         <div class="div-input-checkbox">
                             <input type="radio" name="study-level" id="vestibular" class="checkbox" value="Vestibuláres">
-                            <label for="vestibular">Vestibuláres</label>
+                            <label for="vestibular">Vestibulares</label>
                         </div>
 
                         
