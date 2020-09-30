@@ -15,7 +15,7 @@ Os dados cadastrados no formúlario são salvos em um banco de dados mysql. util
 Você precisa ter algum servidor instalado em sua maquina para poder rodar o PHP e o Mysql, pode usar o [XAMPP](https://www.apachefriends.org/pt_br/index.html) se estiver no windows.   
 Você precisa ter alguns editor de código como o [Visual Studio Code](https://code.visualstudio.com/)  
 
-Para clonar o repositório, va na pasta htdocs do XAMpP, crie uma pasta para com o nome do projeto e digite o comando:  
+Para clonar o repositório, va na pasta htdocs do XAMpP, crie uma pasta para com o nome do projeto, abra o terminal e digite o comando:  
 ```  
 git clone https://github.com/RicardoBaltazar/Site-Professora-Ribeiro-PHP  
 ```
