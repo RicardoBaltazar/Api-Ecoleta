@@ -18,4 +18,6 @@ Você precisa ter alguns editor de código como o [Visual Studio Code](https://c
 Para clonar o repositório, va na pasta htdocs do XAMpP, crie uma pasta para com o nome do projeto, abra o terminal e digite o comando:  
 ```  
 git clone https://github.com/RicardoBaltazar/Site-Professora-Ribeiro-PHP  
-```
+```  
+  
+Licença [MIT](https://github.com/RicardoBaltazar/Site-Professora-Ribeiro-PHP/blob/master/LICENSE)
