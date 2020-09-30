@@ -40,10 +40,14 @@ main {
     border: none;
     border-radius: 250px;
     padding: 20px 40px;
-    color: #fff;
     font-size: 22px;
     margin: 25px 0;
     transition: 0.2s;
+}
+
+.section-presentation button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .section-presentation button:hover{

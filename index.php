@@ -23,8 +23,7 @@
                     <li><a href="#section-presentation">Página inicial</a></li>
                     <li><a href="#section-about">Sobre</a></li>
                     <li><a href="#section-method">Método</a></li>
-                    <li><a href="section-depoiments">Recomendações</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#section-depoiments">Recomendações</a></li>
                     <li><a href="#section-contact">Contato</a></li>
                 </ul>
             </nav>
@@ -36,7 +35,7 @@
                     <h2>Matemática com a Ribeiro</h2>
                     <p>Conta a Conta</p>
                     <p>O caminho do conhecimento</p>
-                    <button>Contate-me</button>
+                    <button><a href="#section-contact">Contate-me</a></button>
                 </div>
 
                 <div>
@@ -142,19 +141,21 @@
                         <p>Nível de Estudo</p>
 
                         <div class="div-input-checkbox">
-                            <input type="checkbox" name="fundamental" id="fundamental" class="checkbox">
+                            <input type="radio" name="study-level" id="fundamental" class="checkbox" value="Ensino Fundamental">
                             <label for="fundamental">Ensino Fundamental</label>
                         </div>
                         
                         <div class="div-input-checkbox">
-                            <input type="checkbox" name="medio" id="medio" class="checkbox">
+                            <input type="radio" name="study-level" id="medio" class="checkbox" value="Ensino Médio">
                             <label for="medio">Ensino Médio</label>
                         </div>
 
                         <div class="div-input-checkbox">
-                            <input type="checkbox" name="vestibular" id="vestibular" class="checkbox">
+                            <input type="radio" name="study-level" id="vestibular" class="checkbox" value="Vestibuláres">
                             <label for="vestibular">Vestibuláres</label>
                         </div>
+
+                        
 
                         <button type="submit">Enviar</button>
                     </div>
