@@ -8,7 +8,7 @@ O projeto foi criado para fins de estudos da linguagem de programação [PHP](ht
 Os dados cadastrados no formúlario são salvos em um banco de dados mysql. utilizei o [PhpMyAdimin](https://www.phpmyadmin.net/) para realizar a criação da tabela.
 
 ### Tecnoligias utilizadas  
-[Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS), [PHP](https://www.php.net/), [Mysql](https://www.mysql.com/), [PhpMyAdimin](https://www.phpmyadmin.net/)  
+[Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS), [PHP](https://www.php.net/), [Mysql](https://www.mysql.com/)  
   
 ### Get started  
 #### Pré requsitos  
