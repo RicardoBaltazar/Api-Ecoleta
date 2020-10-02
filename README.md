@@ -1,6 +1,7 @@
 # Site Professora Ribeiro  
   
-![prof-ribeiro](https://user-images.githubusercontent.com/56805229/94726996-6e618680-0334-11eb-9ef6-9fa4b5bc15b6.gif)  
+<img src="https://user-images.githubusercontent.com/56805229/94954410-7c8fde00-04bf-11eb-8f67-1628e8f7d5d1.png" alt="professora" width="500"/>  
+<img src="https://user-images.githubusercontent.com/56805229/94726996-6e618680-0334-11eb-9ef6-9fa4b5bc15b6.gif" alt="professora" width="500"/>   
   
 ### Sobre 
 Site criado para os alunos realizarem agendamentos de aulas com a professora através de um formulário de contato.  
