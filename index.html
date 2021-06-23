@@ -3,170 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
     <title>Professora Ribeiro</title>
 </head>
 
-
 <body>
-    <div class="home-page">
-        <header class="menu" id="#home">
-            <p>Professora Ribeiro</p>
-            <nav>
+    <div class="page">
+        
+        <header>
+
+            <span>Professora Ribeiro</span>
+
+            <nav> 
                 <ul>
-                    <li><a href="#section-presentation">Página inicial</a></li>
-                    <li><a href="#section-about">Sobre</a></li>
-                    <li><a href="#section-method">Método</a></li>
-                    <li><a href="#section-depoiments">Recomendações</a></li>
-                    <li><a href="#section-contact">Contato</a></li>
+                    <li>Início</li>
+                    <li>Sobre</li>
+                    <li>Método</li>
+                    <li>Recomendações</li>
+                    <li>Contato</li>
                 </ul>
             </nav>
+
         </header>
 
-        <main>
-            <section class="section-presentation" id="section-presentation">
-                <div>
-                    <h2>Matemática com a Ribeiro</h2>
-                    <p>Conta a Conta</p>
-                    <p>O caminho do conhecimento</p>
-                    <button><a href="#section-contact">Contate-me</a></button>
-                </div>
-
-                <div>
-                    <img src="./assets/undraw_studying_s3l7.svg" alt="">
-                </div>
-            </section>
-
-            <section class="section-about" id="section-about">
-                <h2>Sobre Mim</h2>
-
-                <div>
-                    <img src="./assets/img-about.png" alt="">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Fugiat, molestias. Vero provident asperiores molestiae, velit
-                        quibusdam incidunt architecto esse pariatur dignissimos, nulla
-                        aperiam eos autem cumque ipsum, officia ratione amet?
-                        <br>
-                        <br>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Porro commodi officiis et neque, doloremque voluptatibus harum sequi!
-                        Quasi praesentium placeat odit esse ab perspiciatis, numquam beatae
-                        obcaecati hic nesciunt molestiae! Vero provident asperiores molestiae, velit
-                        quibusdam incidunt architecto esse pariatur dignissimos, nulla
-                        aperiam eos autem cumque ipsum, officia ratione amet?
-                    </p>
-                </div>
-            </section>
-
-            <section class="section-method" id="section-method">
-                <h2>Como Eu Faço</h2>
-                <div class="div-methods">
-                    <div>
-                        <h3>Matérias</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempore deleniti.
-                            Atque nobis, eaque ut quis dolor reprehenderit tempora cupiditate voluptatibus optio.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3>Localização</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis autem possimus temporibus nam tempora.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3>Opções de Ensino</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempore deleniti.
-                            Atque nobis.
-                            <br>
-                            <br>
-                            Preço: R$60,00/hora
-                        </p>
-
-                        <p>
-                            <br><br>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempore deleniti.
-                            Atque nobis.
-                            <br>
-                            <br>
-                            Rate: R$50,00/hora
-                        </p>
-                    </div>
-
-                    <div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-depoiments" id="section-depoiments">
-                <h3>O que os clientes felizes dizem por ai</h3>
-                <p>
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Debitis, saepe molestiae placeat eaque hic laboriosam, labore quidem aliquam fugiat.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro voluptatibus."
-                </p>
-            </section>
-
-            <section class="section-contact" id="section-contact">
-                <h3>Contate-me</h3>
-                <p>Eu ensino na capital de São Paulo e nas cidades do llitoral.</p>
-                <p>Tel: (11) 3456-7890 / Email: info@meusite.com</p>
-
-                <form action="form-contact.php" method="POST">
-                    <div class="input-form">
-                        <div>
-                            <input type="text" name="name" placeholder='Nome'>
-                            <input type="text" name="last-name" placeholder='Sobrenome'>
-                        </div>
-                        <div>
-                            <input type="text" name="email" placeholder='Email'>
-                            <input type="text" name="phone" placeholder='Telefone'>
-                        </div>
-                        <input type="text" name="message" placeholder="Menssagem" class="input-message">
-                    </div>
-
-                    <div class="div-checkbox">
-                        <p>Nível de Estudo</p>
-
-                        <div class="div-input-checkbox">
-                            <input type="radio" name="study-level" id="fundamental" class="checkbox" value="Ensino Fundamental">
-                            <label for="fundamental">Ensino Fundamental</label>
-                        </div>
-                        
-                        <div class="div-input-checkbox">
-                            <input type="radio" name="study-level" id="medio" class="checkbox" value="Ensino Médio">
-                            <label for="medio">Ensino Médio</label>
-                        </div>
-
-                        <div class="div-input-checkbox">
-                            <input type="radio" name="study-level" id="vestibular" class="checkbox" value="Vestibuláres">
-                            <label for="vestibular">Vestibulares</label>
-                        </div>
-
-                        
-
-                        <button type="submit">Enviar</button>
-                    </div>
-
-                </form>
-            </section>
-        </main>
-
-
     </div>
-
-
 </body>
 
 </html>
